@@ -1,7 +1,13 @@
-a=["1","2","3","3","6","9","1","2","10","5"]
-b=set(a)
-print(b)
-for i in range (a):
-   if set(b)/=(a)
-      c=b*b
-      print(c)
+a=int(input("enter number of elements"))
+print("enter the numbers")
+d=[]
+for i in range(a):
+   c=int(input())
+   d.append(c)
+b=set(d)
+f=[]    
+for k in b:
+   e=k*k
+   f.append(e)
+
+print(f)   

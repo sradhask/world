@@ -1,0 +1,7 @@
+
+class Property:
+    
+    squarefeet=13000
+    def sale(self, status):
+        print(self.squarefeet)
+

@@ -4,8 +4,8 @@ class House:
     cost=2000000
     def hlo(self,k):
         print("New Home",k)
-        print("squarefeet")
-        print(self.squarefeet)
+        print("squarefeet",self.squarefeet)
         
-p=House()
-p.hlo("for sale")
+        
+obj1=House()
+obj1.hlo("for sale")

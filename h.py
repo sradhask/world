@@ -1,0 +1,6 @@
+print('ram\\s letter')
+print('ram\s letter')
+print('ram\n letter')
+print('ram \t letter')
+print('ram \b letter')
+print('ram\r letter')

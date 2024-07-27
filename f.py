@@ -1,3 +1,4 @@
-class school():
-    
-    def __init__(self,name,no.of student,no.of teachers):
+
+for i in range(5):
+    print(i)
+

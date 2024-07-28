@@ -1,0 +1,5 @@
+a=("apple","orange")
+b=("bananana")
+a=list(a)
+a.append(b)
+print(a)

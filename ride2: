@@ -1,15 +1,25 @@
-class  school(highschool,higherseconadary,up,lp):
+class  school():
     def display(self):
         print("st.johns hss mattom since", 1996)
-class highschool():
+class highschool(school):
      def display1(self):
          print("class 8 to class 10")
-class higherseconadary():
+class higherseconadary(school):
     def display2(self):
          print("class 11 to class 12")
-class up():
+class up(school):
     def display3(self):
         print("class 5 to class7")
-class Lp():
+class Lp(school):
      def display4(self):
          print("class 1 to class4")
+p1=school()
+p2=highschool()
+p3=higherseconadary()
+p4=up()
+p5=Lp()
+p1.display()
+p2.display1()
+p3.display2()
+p4.display3()
+p5.display4()

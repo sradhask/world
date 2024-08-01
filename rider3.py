@@ -9,10 +9,11 @@ class Employee:
           print("mid salary")
        if(self.salary<50000):
           print("Low salary")
-           
-         
-       
-       
+    def __str__(self):
+       return ("self.name-$ self.salary")
+class Manager(Employee):
+  def __init__(self.bonus):
+     self.bo
 p=Employee("sradha",50000)
 print(p.name)
 print(p.salary)

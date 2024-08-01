@@ -1,2 +1,2 @@
-f=open("simple.txt".w)
+f=open("simple.txt" "w)
 f.close()

@@ -1,0 +1,4 @@
+import re
+txt="hello world,hello all"
+x=re.split("\b",txt)
+print(x)

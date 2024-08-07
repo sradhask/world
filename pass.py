@@ -1,6 +1,6 @@
-a=input("enter your password")
+a=input("enter your password \n")
 import re 
-x=re.search(["a-z A-Z],[+],[0-9]",a)
+x=re.search("he.{2}o",a)
 print(x)
 if x:
      print("the password contains 8 characters")

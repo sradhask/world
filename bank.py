@@ -1,5 +1,6 @@
+
 class bank():
-    def __int_(self,accountnum,balance):
+    def __init__(self,accountnum,balance):
        self.accountnum=accountnum
        self.balance=balance
        
@@ -21,5 +22,14 @@ class bank():
 p1=bank()
 p1.deposit()
 p1.withdraw()
+members={"7665":"john","3333":"herbie","8887":"susan","7786":"saf","7785":"peter"}
+
+
+balance={"john":10000,"herbie":20000,"susan":800000,"saf":60000,"peter":43536}
+
+
+
+
+
        
     

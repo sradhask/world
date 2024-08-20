@@ -10,7 +10,7 @@ tk.Label(root,text="farenheit to celsius")
 entry1=tk.Entry(root)
 entry1.grid(row=1,column=1,padx=10,pady=10)
 add_button=tk.Button(root,text="celsius")
-add_button=tk.Button(root,text="farenheit")
+
 num1=float(entry1.get())
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
